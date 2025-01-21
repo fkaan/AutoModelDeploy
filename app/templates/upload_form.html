@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Model Deployment</title>
+</head>
+<body>
+    <h1>Upload Model and Data</h1>
+    <form action="/upload-model/" method="post" enctype="multipart/form-data">
+        <label for="model">Upload Model:</label>
+        <input type="file" id="model" name="file"><br><br>
+        <button type="submit">Upload Model</button>
+    </form>
+    <br>
+    <form action="/upload-data/" method="post" enctype="multipart/form-data">
+        <label for="data">Upload Dataset:</label>
+        <input type="file" id="data" name="file"><br><br>
+        <button type="submit">Upload Data</button>
+    </form>
+</body>
+</html>
